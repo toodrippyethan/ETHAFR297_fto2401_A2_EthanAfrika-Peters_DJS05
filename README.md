@@ -1,4 +1,4 @@
-# DJS07 Project Brief: Building a Redux-Inspired Store for a Tally App
+# DJS05 Project Brief: Building a Redux-Inspired Store for a Tally App
 
 In this challenge, you will venture into the realm of state management by constructing a Redux-inspired store to manage the state of a simple Tally App. Your primary goal is to manage the app's state changes efficiently, focusing on core functionalities like incrementing, decrementing, and resetting a counter. Instead of rendering changes on the UI, you'll subscribe to state updates and log them to the console, highlighting the power of state management in applications.
 
