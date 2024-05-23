@@ -58,21 +58,21 @@ store.subscribe(() => {
 });
 
 // Scenario 1: Initial State Verification
-console.log('Scenario 1: Initial State Verification');
+console.log('Initial State');
 console.log(store.getState()); // { count: 0 }
 
 // Scenario 2: Incrementing the Counter
-console.log('Scenario 2: Incrementing the Counter');
+console.log('Scenario 2');
 store.dispatch({ type: 'ADD' });
 store.dispatch({ type: 'ADD' });
-// State should now be { count: 2 }
+// State {count: 2}
 
 // Scenario 3: Decrementing the Counter
-console.log('Scenario 3: Decrementing the Counter');
+console.log('Scenario 3');
 store.dispatch({ type: 'SUBTRACT' });
-// State should now be { count: 1 }
+// State {count: 1}
 
 // Scenario 4: Resetting the Counter
-console.log('Scenario 4: Resetting the Counter');
+console.log('Scenario 4');
 store.dispatch({ type: 'RESET' });
-// State should now be { count: 0 }
+// State {count: 0}
